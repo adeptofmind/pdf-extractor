@@ -1,0 +1,11 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px auto;
+    padding: 50px 0 20px;
+    position: relative;
+    width: 666px;
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.07), 0 15px 4px 0 rgba(50, 50, 93, 0.01);
+}
