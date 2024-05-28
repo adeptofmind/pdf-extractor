@@ -15,6 +15,8 @@ export class AppService {
       quality: 100,
       density: 300,
       format: 'png',
+      width: 2480,
+      height: 3508,
     }).bulk(-1, { responseType: 'buffer' });
     return pages.map(page => page.buffer);
   }
